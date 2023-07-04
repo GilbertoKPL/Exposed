@@ -3,7 +3,7 @@ import io.gitlab.arturbosch.detekt.report.ReportMergeTask
 import org.jetbrains.kotlin.gradle.tasks.KotlinJvmCompile
 
 plugins {
-    kotlin("jvm") version "1.8.21" apply true
+    kotlin("jvm") apply true
     id("io.github.gradle-nexus.publish-plugin") apply true
     id("io.gitlab.arturbosch.detekt")
     id("org.jetbrains.kotlinx.binary-compatibility-validator") version "0.13.2"
